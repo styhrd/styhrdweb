@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// Define your colors for light and dark modes
+$primary-dark: #0c0c0c;
+$secondary-dark: #e6e6e6;
+
+$primary-light: #ffffff;
+$secondary-light: #0c0c0c;
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 2em;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 3px;
+}
+
+.subheader {
+  font-family: 'Krub', sans-serif;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+.menu {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.menu button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8em;
+  width: 100px;
+  text-align: left;
+  font-weight: 300;
+}
+
+.menu button.active {
+  border-bottom: 1px solid white;
+}
+
+.profileicons {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Krub', sans-serif;
+  font-size: 0.7em;
+  letter-spacing: 1px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+// Light mode styles
+.app-container.light-mode {
+
+  .header,
+  .subheader,
+  .menu button,
+  .profileicons {
+    color: $secondary-light; // Set color for light mode
+  }
+
+  .subheader {
+    font-weight: 500;
+  }
+
+  .profileicons {
+    font-weight: 500;
+  }
+
+  .menu button {
+    font-weight: 400;
+  }
+
+  .menu button.active {
+    border-bottom: 1px solid $secondary-light;
+  }
+}

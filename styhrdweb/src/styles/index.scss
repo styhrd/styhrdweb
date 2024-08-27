@@ -1,0 +1,76 @@
+// index.scss
+
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&display=swap');
+
+$primary-dark: #0c0c0c;
+$secondary-dark: #e6e6e6;
+
+$primary-light: #ffffff;
+$secondary-light: #0c0c0c;
+
+$primary: $primary-dark;
+$secondary: $secondary-dark;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $primary;
+}
+
+.app-container {
+  height: 100vh;
+  padding: 2em;
+
+  &.light-mode {
+    background-color: $primary-light;
+
+    .content-container {
+      border-color: $secondary-light;
+    }
+
+    .information-container {
+      color: $secondary-light;
+    }
+
+    .navigation-container {
+      color: #000;
+    }
+  }
+}
+
+.content-container {
+  border: 1px solid $secondary;
+  height: 100%;
+  display: flex;
+  padding: 2em;
+}
+
+.information-container {
+  color: $secondary;
+  width: 50%;
+}
+
+.navigation-container {
+  width: 50%;
+  display: flex;
+}
+
+// Fade-in animation styles
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1s forwards;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
