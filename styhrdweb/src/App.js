@@ -3,6 +3,7 @@ import './styles/index.scss';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 import About from './components/About';
+import Skills from './components/Skills';
 
 function App() {
   const [activeComponent, setActiveComponent] = useState('home');
@@ -29,6 +30,7 @@ function App() {
         <div className={`information-container ${fadeIn ? 'fade-in' : ''}`}>
           {activeComponent === 'home' && <Home />}
           {activeComponent === 'about' && <About />}
+          {activeComponent === 'skills' && <Skills />}
         </div>
       </div>
     </div>
