@@ -1,3 +1,150 @@
 .mernpic {
     max-width: 400px;
 }
+
+
+.skillspage {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.servicescont {
+    display: flex;
+    gap: 2em;
+}
+
+.service {
+    width: 380px;
+}
+
+.serviceheader {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-bottom: 1px solid rgb(155, 155, 155);
+    padding-bottom: 5px;
+}
+
+.services {
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.frameheader {
+    font-family: 'oswald';
+    font-weight: 200;
+    font-size: 1.3em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skillheader {
+    font-family: 'oswald';
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+.servicecontent {
+    font-family: 'krub';
+    font-weight: 200;
+    font-size: .9em;
+    margin-top: 8px;
+    text-align: justify;
+}
+
+.framecontent {
+    font-family: 'krub';
+    font-weight: 200;
+    font-size: .9em;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.serviceheader p {
+    font-family: 'krub';
+    font-weight: 200;
+    font-size: 1.1em;
+}
+
+.frameworkcont {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    justify-content: center;
+}
+
+hr {
+    border: 1px solid rgb(109, 109, 109);
+    height: 280px;
+    margin: 2em;
+}
+
+.framework {
+    width: 100%;
+    padding: 1em 0em 1em;
+}
+
+.frameworks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.mernframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.mernframe img {
+    width: 200px;
+}
+
+.framepics img {
+    width: 70px;
+}
+
+.framepics {
+    display: flex;
+    align-items: center;
+    height: 87px;
+}
+
+
+.app-container.light-mode {
+
+    .hometext {
+        font-weight: 500;
+    }
+
+    .framecontent,
+    .servicecontent {
+        font-weight: 400;
+    }
+
+    .skillheader,
+    .serviceheader {
+        font-weight: 400;
+    }
+
+    .frameheader {
+        font-weight: 400;
+    }
+
+    .serviceheader p {
+        font-weight: 500;
+    }
+
+    .serviceheader {
+        border-bottom: 3px solid rgb(155, 155, 155);
+    }
+
+    hr {
+        border: 1px solid rgb(109, 109, 109);
+        opacity: 50%;
+    }
+}
