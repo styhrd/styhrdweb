@@ -6,7 +6,7 @@
 .skillspage {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1em;
 }
 
 .servicescont {
@@ -49,7 +49,7 @@
 .servicecontent {
     font-family: 'krub';
     font-weight: 200;
-    font-size: .9em;
+    font-size: .7vw;
     margin-top: 8px;
     text-align: justify;
 }
@@ -57,7 +57,7 @@
 .framecontent {
     font-family: 'krub';
     font-weight: 200;
-    font-size: .9em;
+    font-size: .7vw;
     margin-top: 8px;
     text-align: center;
 }
@@ -78,7 +78,7 @@
 hr {
     border: 1px solid rgb(109, 109, 109);
     height: 280px;
-    margin: 2em;
+    margin: 1em;
 }
 
 .framework {
@@ -105,12 +105,13 @@ hr {
 }
 
 .framepics img {
-    width: 70px;
+    width: 20%;
 }
 
 .framepics {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 87px;
 }
 

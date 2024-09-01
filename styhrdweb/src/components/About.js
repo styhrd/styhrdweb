@@ -35,6 +35,18 @@ const About = () => {
         <p>LIFESTYLE</p>
       </div>
 
+      <div className='lifecont'>
+        <div className='lifepic'>
+          <img src='assets/me2.jpg'></img>
+        </div>
+
+        <div>
+          <p className='description '>
+            I lead a fit lifestyle, enjoying activities like running, lifting weights, and having fun while staying active. The discipline and commitment I apply to my fitness routine carry over into my everyday life, helping me stay focused and motivated in all my endeavors. This balance of physical activity and enjoyment not only keeps me healthy but also enhances my overall well-being and productivity.
+          </p>
+        </div>
+      </div>
+
     </div>
   </>;
 };
