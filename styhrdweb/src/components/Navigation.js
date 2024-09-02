@@ -59,8 +59,20 @@ const Navigation = ({ onComponentChange, toggleTheme }) => {
           onClick={() => handleComponentChange('skills')}
           className={activeLink === 'skills' ? 'active' : ''}
         >
+
+
           Skills
         </button>
+
+        <button
+          onClick={() => handleComponentChange('projects')}
+          className={activeLink === 'projects' ? 'active' : ''}
+        >
+
+
+          Projects
+        </button>
+
 
 
 

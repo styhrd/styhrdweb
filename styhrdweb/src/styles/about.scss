@@ -1,24 +1,22 @@
 .mepic {
-    max-width: 200px;
+    max-width: 150px;
     height: 100%;
-    border-radius: 10px;
+    border-radius: 50%;
 
 }
 
 .quote {
-    display: flex;
-    flex-direction: column;
     font-family: 'oswald';
-    font-size: clamp(2em, 2.5vw, 4em);
-    letter-spacing: 5px;
+    font-size: clamp(1em, 1.3vw, 4em);
+    letter-spacing: 8px;
     font-weight: 200;
     justify-content: space-between;
 }
 
 
 .lifepic img {
-    width: 200px;
-    border-radius: 10px;
+    width: 150px;
+    border-radius: 50%;
 }
 
 .lifecont {
@@ -28,9 +26,11 @@
 }
 
 .piccont {
-    width: 40%;
+    width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: left;
+    align-items: center;
+    gap: 2em;
 }
 
 .quotecont {
@@ -41,7 +41,9 @@
 
 .quotes {
     display: flex;
-    width: 60%;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
 }
 
 .quote p {
@@ -59,6 +61,7 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
+
 
 }
 
@@ -78,4 +81,55 @@
     font-family: 'oswald';
     font-weight: 200;
     font-size: 1.3em;
+}
+
+
+@media (max-width: 1300px) {
+    .aboutpage {
+        height: 80vh;
+    }
+
+    .description {
+        font-size: clamp(0.8em, 1vw, 4em);
+    }
+}
+
+
+@media (max-width: 700px) {
+    .description {
+        font-size: clamp(0.54em, .7vw, 4em);
+    }
+
+    .mepic,
+    .lifepic img {
+        width: 100px;
+    }
+
+
+    .piccont,
+    .lifecont {
+        gap: 1.5em;
+    }
+
+    .app-container {
+        padding: 1.5em;
+    }
+
+    .content-container {
+        padding: 1.5em;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .mepic,
+    .lifepic img {
+        width: 80px;
+    }
+
+
+    .piccont,
+    .lifecont {
+        gap: 1em;
+    }
 }
