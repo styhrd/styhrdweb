@@ -107,3 +107,33 @@
     border-radius: 3px;
     /* Rounded edges for the scrollbar track */
 }
+
+.tech {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    font-family: 'oswald';
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    gap: 1em;
+}
+
+.stack a {
+    font-family: 'oswald';
+    font-weight: 200;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
