@@ -1,0 +1,109 @@
+.anapolopage {
+    height: 100%;
+    /* Set the maximum height */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    overflow-x: hidden;
+    /* Optional: Background color */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 1em;
+}
+
+.laptop {
+    width: 400px;
+}
+
+.mobile {
+    width: 130px;
+}
+
+.anapolopics {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+.anapoloheader {
+    font-family: 'oswald';
+    font-weight: 200;
+    font-size: 2em;
+}
+
+.anapolocont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5em;
+}
+
+.anapolodesc {
+    font-family: 'krub';
+    font-weight: 200;
+    font-size: clamp(.6em, .75vw, 4em);
+    text-align: center;
+}
+
+.backbutt svg {
+    cursor: pointer;
+}
+
+.featdesc {
+    display: flex;
+    font-family: 'krub';
+    font-weight: 200;
+    font-size: clamp(.6em, .67vw, 4em);
+}
+
+.featdesc img {
+    width: 400px;
+}
+
+.feathead {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Krub';
+    font-weight: 300;
+}
+
+.anapolofeatures {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.anapolofeatures img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 1em;
+}
+
+.anapolopage::-webkit-scrollbar {
+    width: 6px;
+    /* Width of the scrollbar */
+}
+
+.anapolopage::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the scrollbar thumb */
+    border-radius: 3px;
+    /* Rounded edges for the scrollbar thumb */
+}
+
+.anapolopage::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color when hovering over the scrollbar thumb */
+}
+
+.anapolopage::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    /* Background of the scrollbar track */
+    border-radius: 3px;
+    /* Rounded edges for the scrollbar track */
+}
