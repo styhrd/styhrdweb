@@ -4,7 +4,9 @@ import Navigation from './components/Navigation';
 import Home from './components/Home';
 import About from './components/About';
 import Skills from './components/Skills';
-import Projects from './components/Projects'
+import Projects from './components/Projects';
+import { AnapoloProj } from './components/AnapoloProj';
+import { BaryoProj } from './components/BaryoProj';
 
 function App() {
   const [activeComponent, setActiveComponent] = useState('home');
@@ -33,7 +35,7 @@ function App() {
         <div className='mobnav'>
           <button className='toggle-btn' onClick={toggleOverlay}>
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
-              <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+              <path fillRule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
             </svg>
           </button>
           <p className='mobname'>STYHRD</p>
@@ -53,7 +55,9 @@ function App() {
           {activeComponent === 'home' && <Home />}
           {activeComponent === 'about' && <About />}
           {activeComponent === 'skills' && <Skills />}
-          {activeComponent === 'projects]' && <Projects />}
+          {activeComponent === 'projects' && <Projects onProjectSelect={handleComponentChange} />}
+          {activeComponent === 'anapoloProj' && <AnapoloProj />}
+          {activeComponent === 'baryoProj' && <BaryoProj />}
         </div>
       </div>
     </div>

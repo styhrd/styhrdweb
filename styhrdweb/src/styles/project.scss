@@ -1,0 +1,130 @@
+.projpic {
+    width: 100px;
+}
+
+.projects {
+    display: flex;
+    gap: 2em;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 1em;
+
+}
+
+.projectpage {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.projheader {
+    font-family: 'oswald';
+    font-weight: 200;
+    font-size: 1.5em;
+    width: 100%;
+    ;
+    border-bottom: 1px solid white;
+}
+
+.ikonicproject .projheader {
+    max-width: 48%;
+}
+
+.ikonicproject {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.projdescription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'krub';
+    gap: 10px;
+    font-weight: 200;
+    font-size: clamp(.6em, .67vw, 4em);
+}
+
+.projdescription a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.projdescription button {
+    background: none;
+    border: none;
+    color: rgb(231, 231, 231);
+    font-family: 'Krub';
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.kisigcont .kisigheader {
+    font-family: 'oswald';
+    font-weight: 200;
+    font-size: 1.2em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.kisigproj img {
+    width: 180px;
+}
+
+.kisigproj {
+    display: flex;
+    gap: 1em;
+}
+
+
+
+.kisigdesc {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+
+}
+
+.kisigdesc .projheader {
+    font-size: 1.2em;
+}
+
+.kisigp {
+    font-family: 'krub';
+    font-weight: 200;
+    font-size: clamp(.6em, .67vw, 4em);
+}
+
+.projfeatures {
+    font-family: 'oswald';
+    font-weight: 200;
+    font-size: 1.2em;
+    margin-top: .5em;
+}
+
+.features {
+    display: flex;
+    gap: 1em;
+    margin-top: .5em;
+}
+
+.features ul {
+    margin-left: 1.2em;
+    font-family: 'krub';
+    font-weight: 200;
+    font-size: clamp(.6em, .67vw, 4em);
+}
