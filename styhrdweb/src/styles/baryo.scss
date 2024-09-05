@@ -12,6 +12,10 @@
     gap: .5em;
 }
 
+.hehe {
+    margin-top: 2em;
+}
+
 .slideshow {
     display: flex;
     flex-direction: column;
@@ -42,19 +46,29 @@
 
 .slideshow-controls {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
-    max-width: 200px;
     margin-top: 20px;
+    gap: 1em;
 }
 
 .slideshow-controls button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #007bff;
-    color: white;
+    border-radius: 5px;
+    width: 120px;
+    padding: 1em 2em 1em;
+    background: none;
+    border: 1px solid white;
+    color: rgb(231, 231, 231);
+    font-family: "Krub";
+    font-weight: 400;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.8s ease;
+}
+
+.slideshow-controls :hover {
+    background-color: white;
+    color: #0c0c0c;
+    font-weight: 600;
 }
 
 

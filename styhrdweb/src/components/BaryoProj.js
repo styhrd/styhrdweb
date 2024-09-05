@@ -11,17 +11,17 @@ export const BaryoProj = ({ onBackToProjects }) => {
         {
             title: 'Tailored Job Listings by Skills',
             description: 'Baryo Work provides a personalized job search experience by matching users skills with job requirements.The platform analyzes user profiles and suggests roles that align with their abilities, ensuring a better fit between candidates and job openings.',
-            img: 'assets/baryo2.png'
+            img: 'assets/baryo4.png'
         },
         {
             title: 'Easy Application Process',
             description: 'Applying for jobs on Baryo Work is fast and simple. Users can submit applications with just a few clicks, reducing the time and effort traditionally required, while ensuring all relevant information is included.',
-            img: 'assets/baryo2.png'
+            img: 'assets/baryo5.png'
         },
         {
             title: 'Easy Profiling for Employers',
             description: 'Employers can easily view detailed profiles of applicants, allowing them to quickly assess qualifications, skills, and suitability for the role without needing to sift through extensive resumes.',
-            img: 'assets/baryo2.png'
+            img: 'assets/baryo6.png'
         }
         // Add more slides as needed
     ];
@@ -67,7 +67,25 @@ export const BaryoProj = ({ onBackToProjects }) => {
 
                 <div className='slideshow-controls'>
                     <button onClick={goToPreviousSlide}>Previous</button>
-                    <button onClick={goToNextSlide}>Next</button>
+                    <button onClick={goToNextSlide}>Next </button>
+                </div>
+
+                <div className='stack hehe'>
+                    <div className='tech' >
+                        <p>MONGODB</p>
+                        <p>EXPRESS.JS</p>
+                        <p>REACT.JS</p>
+                        <p>NODE.JS</p>
+                    </div>
+
+                    <p className='featdesc'>
+                        BaryoWork is built using the powerful MERN stack—a combination of MongoDB, Express, React, and Node.js. This modern technology stack ensures a seamless user experience, providing fast, responsive interfaces for both job seekers and employers. With a secure and scalable backend, BaryoWork is designed to handle your needs efficiently and reliably.
+                    </p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down icon" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1" />
+                    </svg>
+
+                    <a href='https://baryoworkfrontcopy.onrender.com/' target='_blank'>VISIT THE WEBSITE HERE</a>
                 </div>
             </div>
         </div>
