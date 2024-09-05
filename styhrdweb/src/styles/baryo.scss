@@ -1,0 +1,104 @@
+.baryopage {
+    height: 100%;
+    /* Set the maximum height */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    overflow-x: hidden;
+    /* Optional: Background color */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 1em;
+    gap: .5em;
+}
+
+.slideshow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5em;
+}
+
+.slide {
+    position: relative;
+    text-align: center;
+}
+
+.slide-img {
+    width: 250px;
+    height: auto;
+}
+
+.slide-title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.slide-description {
+    font-size: 16px;
+    color: #555;
+}
+
+.slideshow-controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.slideshow-controls button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.baryopage::-webkit-scrollbar {
+    width: 6px;
+    /* Width of the scrollbar */
+}
+
+.baryopage::-webkit-scrollbar-thumb {
+    background-color: #888;
+    /* Color of the scrollbar thumb */
+    border-radius: 3px;
+    /* Rounded edges for the scrollbar thumb */
+}
+
+.baryopage::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+    /* Color when hovering over the scrollbar thumb */
+}
+
+.baryopage::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    /* Background of the scrollbar track */
+    border-radius: 3px;
+    /* Rounded edges for the scrollbar track */
+}
+
+.slide-title {
+    font-family: 'krub';
+    font-weight: 200;
+}
+
+.slide-description {
+    font-family: 'krub';
+    font-weight: 200;
+    font-size: clamp(.6em, .67vw, 4em);
+    color: white;
+    width: 70%;
+}
+
+.slide-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

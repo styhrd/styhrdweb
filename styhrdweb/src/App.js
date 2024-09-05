@@ -57,7 +57,7 @@ function App() {
           {activeComponent === 'skills' && <Skills />}
           {activeComponent === 'projects' && <Projects onProjectSelect={handleComponentChange} />}
           {activeComponent === 'anapoloProj' && <AnapoloProj onBackToProjects={handleComponentChange} />}
-          {activeComponent === 'baryoProj' && <BaryoProj />}
+          {activeComponent === 'baryoProj' && <BaryoProj onBackToProjects={handleComponentChange} />}
         </div>
       </div>
     </div>
