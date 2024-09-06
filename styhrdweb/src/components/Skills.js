@@ -73,7 +73,6 @@ const Skills = () => {
                             <p className='framecontent'>As an experienced MERN stack developer, I specialize in building robust applications using MongoDB, Express.js, React.js, and Node.js. I focus on implementing secure authentication mechanisms, optimizing performance, and ensuring smooth, responsive user interfaces. My approach includes comprehensive testing and debugging to deliver reliable and high-quality applications. I am skilled in using this stack to create scalable, dynamic web applications that meet diverse client needs.</p>
                         </div>
                     </div>
-                    <hr></hr>
 
                     <div className='framework'>
                         <div className='mernframe'>

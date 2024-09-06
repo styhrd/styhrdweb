@@ -128,3 +128,32 @@
     font-weight: 200;
     font-size: clamp(.6em, .67vw, 4em);
 }
+
+.app-container.light-mode {
+
+    .projheader {
+        font-weight: 400;
+    }
+
+    .kisigheader,
+    .projfeatures {
+        font-weight: 400;
+    }
+
+    .projdescription,
+    .kisigp,
+    .features ul {
+        font-weight: 450;
+    }
+
+    .projdescription button {
+        color: black;
+        font-weight: 500;
+    }
+
+    .projdescription a {
+        color: black;
+        font-weight: 800;
+    }
+
+}

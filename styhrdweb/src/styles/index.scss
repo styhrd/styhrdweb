@@ -174,3 +174,15 @@ body {
     opacity: 1;
   }
 }
+
+.app-container.light-mode {
+  .toggle-btn {
+    color: black;
+  }
+
+  .mobname {
+    color: black;
+    font-weight: 300;
+  }
+
+}

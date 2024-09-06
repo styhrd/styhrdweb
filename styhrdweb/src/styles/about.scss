@@ -133,3 +133,27 @@
         gap: 1em;
     }
 }
+
+.app-container.light-mode {
+
+    .description {
+        font-weight: 500;
+    }
+
+    .abouthead {
+        font-weight: 400;
+    }
+
+    .abouthead2 {
+        font-weight: 400;
+    }
+
+    .quote {
+        font-weight: 400;
+    }
+
+    .header {
+        font-weight: 300;
+    }
+
+}

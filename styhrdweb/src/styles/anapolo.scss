@@ -144,3 +144,38 @@
     text-decoration: none;
     margin-bottom: 1em;
 }
+
+.app-container.light-mode {
+
+    .anapoloheader,
+    .slide-title {
+        font-weight: 300;
+    }
+
+    .anapolodesc,
+    .anapolodesc2,
+    .featdesc,
+    .feathead {
+        font-weight: 450;
+    }
+
+    .tech {
+        font-weight: 300;
+    }
+
+    .stack a {
+        color: black;
+        font-weight: 300;
+    }
+
+    .slide-description {
+        color: black;
+        font-weight: 500;
+    }
+
+    .slideshow-controls button {
+        color: black;
+        border: 1px solid black;
+        font-weight: 500;
+    }
+}
