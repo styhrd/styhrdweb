@@ -1,5 +1,5 @@
 .anapolopage {
-    height: 100%;
+    height: 85vh;
     /* Set the maximum height */
     overflow-y: auto;
     /* Enable vertical scrolling */
@@ -12,11 +12,11 @@
 }
 
 .laptop {
-    width: 400px;
+    width: 55%;
 }
 
 .mobile {
-    width: 130px;
+    width: 20%;
 }
 
 .anapolopics {
@@ -145,6 +145,10 @@
     margin-bottom: 1em;
 }
 
+.anapolopics img {
+    max-width: 100%;
+}
+
 .app-container.light-mode {
 
     .anapoloheader,
@@ -177,5 +181,17 @@
         color: black;
         border: 1px solid black;
         font-weight: 500;
+    }
+}
+
+
+@media (max-width: 1300px) {
+
+    .anapolopage {
+        height: 100%;
+        overflow-y: hidden;
+        /* Disable vertical scrolling */
+        overflow-x: hidden;
+        /* Optional: Background color */
     }
 }

@@ -34,7 +34,7 @@ const Projects = ({ onProjectSelect }) => {
             <div className='ikonicproject'>
                 <div className='projdescription'>
                     <p className='projheader'>IKONIC STUDIOS</p>
-                    <p>Ikonic Studios is a newborn photograph studio in the Philippines. To see the studios website, visit this link: <i><a target='_blank' href='https://ikonicstudios.online'>https://ikonicstudios.online</a> </i> </p>
+                    <p className='mobdes'>Ikonic Studios is a newborn photograph studio in the Philippines. To see the studios website, visit this link: <i><a target='_blank' href='https://ikonicstudios.online'>https://ikonicstudios.online</a> </i> </p>
                 </div>
 
             </div>

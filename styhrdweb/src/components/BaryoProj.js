@@ -40,7 +40,7 @@ export const BaryoProj = ({ onBackToProjects }) => {
     return (
         <div className='baryopage'>
             <div onClick={() => onBackToProjects('projects')} className='backbutt'>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left icon" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left icon shabs" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
                 </svg>
             </div>
@@ -53,7 +53,7 @@ export const BaryoProj = ({ onBackToProjects }) => {
                 </div>
                 <p className='anapolodesc'>BaryoWork connects employers with top talent, offering streamlined job postings, applications, and candidate management. It simplifies the recruitment process with personalized job recommendations and efficient profile management.</p>
             </div>
-            <div className='anapoloheader'>FEATURES</div>
+            <div className='anapoloheader baryohead'>FEATURES</div>
             <p className='anapolodesc2'> This platform is designed to simplify your job search and hiring process. Explore our features below to discover how we make finding tailored opportunities, filtering by location, and applying for jobs easier than ever. Employers can also benefit from streamlined profiling, making it effortless to connect with the right candidates. Browse the features to learn more!</p>
 
             <div className='slideshow'>
@@ -71,7 +71,7 @@ export const BaryoProj = ({ onBackToProjects }) => {
                 </div>
 
                 <div className='stack hehe'>
-                    <div className='tech' >
+                    <div className='tech tech2' >
                         <p>MONGODB</p>
                         <p>EXPRESS.JS</p>
                         <p>REACT.JS</p>

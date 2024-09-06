@@ -22,7 +22,7 @@ body {
 }
 
 .app-container {
-  height: 100vh;
+  height: 100%;
   padding: 2em;
 
   &.light-mode {
@@ -47,6 +47,23 @@ body {
 
   }
 }
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+
+.aboutpage,
+.projectpage,
+.skillspage {
+  height: 85vh;
+}
+
+
 
 .content-container {
   border: 1px solid $secondary;
@@ -122,9 +139,15 @@ body {
   height: 100%;
 }
 
+
+
 @media (max-width: 1300px) {
 
-
+  .aboutpage,
+  .projectpage,
+  .skillspage {
+    height: 100%;
+  }
 
   .navigation-container {
     display: none;

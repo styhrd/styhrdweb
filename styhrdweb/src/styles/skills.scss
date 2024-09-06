@@ -153,7 +153,13 @@ hr {
 
 @media (max-width: 1300px) {
 
+    .skillspage {
+        height: 80vh;
+    }
 
+    .projectpage {
+        height: 80vh;
+    }
 
     .service {
         width: 100%;
@@ -170,6 +176,11 @@ hr {
 }
 
 @media (max-width: 700px) {
+
+    .frameworkcont {
+        flex-direction: column;
+    }
+
     .serviceheader p {
         font-size: clamp(0.8em, 1vw, 4em);
     }
@@ -194,17 +205,10 @@ hr {
         height: 15px;
     }
 
-    .frameheader {
-        display: none;
-    }
-
     hr {
         display: none;
     }
 
-    .frameworkcont {
-        flex-direction: column;
-    }
 
 
     .mernframe img {
@@ -226,8 +230,22 @@ hr {
     }
 }
 
+
 @media (max-width: 500px) {
-    .app-container {
+
+    .information-container {
+        height: 100%;
+    }
+
+    .kisigproj {
+        flex-direction: column;
+    }
+
+    .projectpage {
+        height: 100%;
+    }
+
+    .skillspage {
         height: 100%;
     }
 

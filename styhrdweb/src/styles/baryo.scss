@@ -1,5 +1,5 @@
 .baryopage {
-    height: 100%;
+    height: 85vh;
     /* Set the maximum height */
     overflow-y: auto;
     /* Enable vertical scrolling */
@@ -8,13 +8,15 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-right: 1em;
     gap: .5em;
 }
+
+
 
 .hehe {
     margin-top: 2em;
 }
+
 
 .slideshow {
     display: flex;
@@ -115,4 +117,38 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+.shabs {
+    margin-left: .5em;
+}
+
+@media (max-width: 500px) {
+    .baryohead {
+        font-size: 1.3em;
+        margin-top: 1em;
+    }
+
+    .slide-img {
+        width: 90%;
+    }
+
+    .slideshow {
+        width: 100%;
+    }
+
+    .tech2 {
+        font-size: .8em;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .baryopage {
+        height: 100%;
+        overflow-y: hidden;
+        /* Disable vertical scrolling */
+        overflow-x: hidden;
+        /* Optional: Background color */
+    }
 }
